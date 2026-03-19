@@ -1,18 +1,50 @@
 # AI Agent Learning Lab
 
-This repository documents my learning process in AI, networking, and VPS automation.
+## Overview
+This project documents my hands-on learning in:
 
-## Topics
+- AI agent workflows
+- VPS deployment and automation
+- Network diagnostics and optimization
 
-- AI agent basics
-- VPS deployment and management
-- Network testing (latency, packet loss)
-- Proxy and routing strategies
+The goal is to build a structured system that combines AI with real-world infrastructure.
 
-## Purpose
+---
 
-This is a personal learning project as part of my computer science studies.
+## Architecture
 
-## Status
+This repository is organized into:
 
-Work in progress 🚧
+- `docs/` → daily learning logs and experiments
+- `scripts/` → automation tools for network testing
+- `configs/` → configuration templates (no sensitive data)
+- `reports/` → summarized analysis results
+
+---
+
+## Features
+
+- Network diagnostics (ping, traceroute, mtr)
+- VPS routing analysis
+- IP quality checking
+- Automation scripts for testing
+- Future: AI-based analysis system
+
+---
+
+## Security Note
+
+All sensitive information such as:
+
+- IP addresses
+- credentials
+- API keys
+
+are **redacted or replaced with placeholders**.
+
+---
+
+## Example Usage
+
+```bash
+./scripts/analyze_network.sh <TARGET_IP>
